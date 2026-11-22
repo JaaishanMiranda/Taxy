@@ -41,7 +41,6 @@ export function Team() {
                 {initials(m.name)}
               </span>
               <h3 className="mt-4 text-base font-bold text-ink">{m.name}</h3>
-              <p className="mt-0.5 text-sm text-muted">{m.role}</p>
             </li>
           ))}
         </ul>
