@@ -1,5 +1,7 @@
 import { SiteNav } from "@/components/sections/site-nav";
 import { Hero } from "@/components/sections/hero";
+import { CoverageStrip } from "@/components/sections/coverage-strip";
+import { Features } from "@/components/sections/features";
 import { Walkthrough } from "@/components/sections/walkthrough";
 import { FinalCta } from "@/components/sections/final-cta";
 import { SiteFooter } from "@/components/sections/site-footer";
@@ -16,6 +18,8 @@ export default function Home() {
       <SiteNav />
       <main id="main">
         <Hero />
+        <CoverageStrip />
+        <Features />
         <Walkthrough />
         <FinalCta />
       </main>

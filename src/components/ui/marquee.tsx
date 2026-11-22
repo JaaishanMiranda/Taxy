@@ -1,0 +1,49 @@
+// Magic UI – Marquee (https://magicui.design/docs/components/marquee)
+// The repeated copies are hidden from screen readers; reduced motion stops the scroll.
+import type { ComponentPropsWithoutRef } from "react";
+import { cn } from "@/lib/utils";
+
+interface MarqueeProps extends ComponentPropsWithoutRef<"div"> {
+  reverse?: boolean;
+  pauseOnHover?: boolean;
+  vertical?: boolean;
+  repeat?: number;
+}
+
+export function Marquee({
+  className,
+  reverse = false,
+  pauseOnHover = false,
+  children,
+  vertical = false,
+  repeat = 4,
+  ...props
+}: MarqueeProps) {
+  return (
+    <div
+      {...props}
+      className={cn(
+        "group flex [gap:var(--gap)] overflow-hidden p-2 [--duration:40s] [--gap:1rem]",
+        vertical ? "flex-col" : "flex-row",
+        className,
+      )}
+    >
+      {Array.from({ length: repeat }, (_, i) => (
+        <div
+          key={i}
+          aria-hidden={i > 0 ? true : undefined}
+          className={cn(
+            "flex shrink-0 justify-around [gap:var(--gap)] motion-reduce:animate-none",
+            vertical
+              ? "animate-marquee-vertical flex-col"
+              : "animate-marquee flex-row",
+            pauseOnHover && "group-hover:[animation-play-state:paused]",
+            reverse && "[animation-direction:reverse]",
+          )}
+        >
+          {children}
+        </div>
+      ))}
+    </div>
+  );
+}
