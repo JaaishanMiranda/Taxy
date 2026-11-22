@@ -37,7 +37,6 @@ All of them respect the visitor's reduced-motion setting.
 
 ## Before submission
 
-- Replace the `[Member name]` / `[Role]` placeholders in `src/content/site.ts`.
 - The 30-day retention period matches NFR4, which still marks it as a placeholder.
 - `BrandMark` is a placeholder "T" logo.
 

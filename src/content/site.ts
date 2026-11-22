@@ -72,14 +72,12 @@ export const privacy = [
   },
 ];
 
-/** Replace with the real team before submission. */
 export const team = [
-  { name: "[Member name]", role: "[Role]" },
-  { name: "[Member name]", role: "[Role]" },
-  { name: "[Member name]", role: "[Role]" },
-  { name: "[Member name]", role: "[Role]" },
-  { name: "[Member name]", role: "[Role]" },
-  { name: "[Member name]", role: "[Role]" },
+  { name: "Jaaishan" },
+  { name: "Sivesh" },
+  { name: "Divakar" },
+  { name: "Kruththika" },
+  { name: "Thirisha" },
 ];
 
 export const faqs = [
