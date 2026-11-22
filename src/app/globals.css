@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+/*
+  Design tokens. Blue gradient + glass look adapted from the Supaste reference
+  (see DESIGN.md). Text colours are checked for WCAG 2.1 AA (NFR9):
+  - brand-strong #0a62c9 on white  5.8:1  (buttons, links, small blue text)
+  - muted        #5b6b84 on white  5.4:1  (body copy)
+  - clay-strong  #8a4f3d on white  6.4:1  (warm accent text)
+  - brand #087cf8 is 4.0:1, so it is used for large text and decoration only.
+*/
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  --color-brand: #087cf8;
+  --color-brand-strong: #0a62c9;
+  --color-brand-deep: #0a508f;
+  --color-brand-tint: #eaf3ff;
+  --color-sky: #8ad8fc;
+  --color-clay: #ac6853;
+  --color-clay-strong: #8a4f3d;
+  --color-clay-tint: #f8efeb;
+  --color-ink: #172033;
+  --color-muted: #5b6b84;
+  --color-line: #e4ebf5;
+  --color-surface: #f7f9fc;
+  --color-night: #0e1c32;
+
+  --animate-marquee: marquee var(--duration) linear infinite;
+  --animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
+  --animate-shimmer-slide: shimmer-slide var(--speed) ease-in-out infinite alternate;
+  --animate-spin-around: spin-around calc(var(--speed) * 2) infinite linear;
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(calc(-100% - var(--gap))); }
+  }
+  @keyframes marquee-vertical {
+    from { transform: translateY(0); }
+    to { transform: translateY(calc(-100% - var(--gap))); }
+  }
+  @keyframes shimmer-slide {
+    to { transform: translate(calc(100cqw - 100%), 0); }
+  }
+  @keyframes spin-around {
+    0% { transform: translateZ(0) rotate(0); }
+    15%, 35% { transform: translateZ(0) rotate(90deg); }
+    65%, 85% { transform: translateZ(0) rotate(270deg); }
+    100% { transform: translateZ(0) rotate(360deg); }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 88px;
+}
+
+body {
+  background: #fff;
+  color: var(--color-ink);
+  font-size: 1rem; /* 16px base */
+  overflow-x: clip;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brand-strong);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* Hero: the gradient stays dark where the text sits (white text ≥ 5.8:1)
+   and only turns light behind the app preview. */
+.hero-bg {
+  background:
+    radial-gradient(ellipse at 50% 105%, rgba(151, 220, 255, 0.55), transparent 55%),
+    linear-gradient(180deg, #0a508f 0px, #0a62c9 520px, #087cf8 720px, #5fbcf5 960px, #8ad8fc 100%);
+}
+
+/* scanning highlight on the extraction card */
+.scan-line { animation: scan 2.8s ease-in-out infinite; }
+@keyframes scan {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(110px); }
+}
+
+/* FAQ disclosure */
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item[open] .faq-chevron { transform: rotate(45deg); }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
