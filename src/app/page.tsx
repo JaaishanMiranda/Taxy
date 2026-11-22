@@ -1,4 +1,8 @@
+import { SiteNav } from "@/components/sections/site-nav";
+import { Hero } from "@/components/sections/hero";
 import { Walkthrough } from "@/components/sections/walkthrough";
+import { FinalCta } from "@/components/sections/final-cta";
+import { SiteFooter } from "@/components/sections/site-footer";
 
 export default function Home() {
   return (
@@ -9,9 +13,13 @@ export default function Home() {
       >
         Skip to content
       </a>
+      <SiteNav />
       <main id="main">
+        <Hero />
         <Walkthrough />
+        <FinalCta />
       </main>
+      <SiteFooter />
     </>
   );
 }
