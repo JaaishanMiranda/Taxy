@@ -3,6 +3,10 @@ import { Hero } from "@/components/sections/hero";
 import { CoverageStrip } from "@/components/sections/coverage-strip";
 import { Features } from "@/components/sections/features";
 import { Walkthrough } from "@/components/sections/walkthrough";
+import { HowItWorks } from "@/components/sections/how-it-works";
+import { Privacy } from "@/components/sections/privacy";
+import { Team } from "@/components/sections/team";
+import { Faq } from "@/components/sections/faq";
 import { FinalCta } from "@/components/sections/final-cta";
 import { SiteFooter } from "@/components/sections/site-footer";
 
@@ -21,6 +25,10 @@ export default function Home() {
         <CoverageStrip />
         <Features />
         <Walkthrough />
+        <HowItWorks />
+        <Privacy />
+        <Team />
+        <Faq />
         <FinalCta />
       </main>
       <SiteFooter />
