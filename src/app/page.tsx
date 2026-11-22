@@ -1,3 +1,5 @@
+import { Walkthrough } from "@/components/sections/walkthrough";
+
 export default function Home() {
   return (
     <>
@@ -8,6 +10,7 @@ export default function Home() {
         Skip to content
       </a>
       <main id="main">
+        <Walkthrough />
       </main>
     </>
   );

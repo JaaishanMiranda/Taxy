@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "./mock.css";
 
 /*
   Design tokens. Blue gradient + glass look adapted from the Supaste reference
