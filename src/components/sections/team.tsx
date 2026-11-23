@@ -23,7 +23,7 @@ export function Team() {
           eyebrow="The team"
           title="Built by a team of software engineering students."
         >
-          Tax Assistant is our Software Development Group Project (SDGP) at the
+          Taxy is our Software Development Group Project (SDGP) at the
           Informatics Institute of Technology, in collaboration with the
           University of Westminster.
         </SectionHeading>

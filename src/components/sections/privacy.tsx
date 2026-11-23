@@ -52,7 +52,7 @@ export function Privacy() {
           />
           <p className="text-base leading-relaxed text-ink">
             <strong>You stay in control.</strong> Nothing becomes final until
-            you approve it, and Tax Assistant gives general guidance, not
+            you approve it, and Taxy gives general guidance, not
             professional tax advice. For decisions specific to your situation,
             check with a qualified tax adviser.
           </p>

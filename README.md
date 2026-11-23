@@ -1,6 +1,6 @@
-# Tax Assistant: landing page
+# Taxy: landing page
 
-Landing page for the SDGP Tax Assistant, built with Next.js 16 (App Router), TypeScript,
+Landing page for Taxy, our SDGP tax assistant, built with Next.js 16 (App Router), TypeScript,
 Tailwind CSS v4 and Motion. The design is adapted from the HTML prototype and the Supaste reference in `DESIGN.md`.
 
 ## Run it

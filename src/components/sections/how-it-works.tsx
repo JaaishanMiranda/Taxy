@@ -83,7 +83,7 @@ export function HowItWorks() {
 
             <Node
               ref={app}
-              label="Tax Assistant"
+              label="Taxy"
               className="size-16 border-brand/30 sm:size-20"
             >
               <BrandMark className="size-10 text-lg sm:size-12" />

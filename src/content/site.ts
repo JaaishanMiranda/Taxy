@@ -3,7 +3,7 @@
 // The 30-day retention period follows NFR4, where it is still marked as a placeholder ([30]).
 
 export const site = {
-  name: "Tax Assistant",
+  name: "Taxy",
   tagline: "Tax preparation, without the chaos.",
   nav: [
     { href: "#features", label: "Features" },
@@ -82,7 +82,7 @@ export const team = [
 
 export const faqs = [
   {
-    q: "Who is Tax Assistant for?",
+    q: "Who is Taxy for?",
     a: "Freelancers and self-employed people in Sri Lanka who are resident individuals and want to get their records in order before filing. Accountants can also use it to review a client's organised, evidence-linked records.",
   },
   {

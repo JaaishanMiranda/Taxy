@@ -31,7 +31,7 @@ export const screens: Screen[] = [
             <span className="mock-dot yellow"></span>{" "}
             <span className="mock-dot green"></span>
           </div>
-          Tax Assistant · Welcome
+          Taxy · Welcome
         </div>
         <div className="mock-body login-layout">
           <div className="login-left">
@@ -42,7 +42,7 @@ export const screens: Screen[] = [
               >
                 T
               </div>
-              Tax Assistant
+              Taxy
             </div>
             <div>
               <div
@@ -147,13 +147,13 @@ export const screens: Screen[] = [
             <span className="mock-dot yellow"></span>{" "}
             <span className="mock-dot green"></span>
           </div>
-          Tax Assistant · Workspace
+          Taxy · Workspace
         </div>
         <div className="mock-body">
           <aside className="mock-sidebar">
             <div className="mock-brand">
               <div className="mock-brand-icon">T</div>
-              Tax Assistant
+              Taxy
             </div>
             <div className="mock-label">WORKSPACE</div>
             <div className="mock-nav">
@@ -370,13 +370,13 @@ export const screens: Screen[] = [
             <span className="mock-dot yellow"></span>{" "}
             <span className="mock-dot green"></span>
           </div>
-          Tax Assistant · Tax Profile
+          Taxy · Tax Profile
         </div>
         <div className="mock-body">
           <aside className="mock-sidebar">
             <div className="mock-brand">
               <div className="mock-brand-icon">T</div>
-              Tax Assistant
+              Taxy
             </div>
             <div className="mock-label">WORKSPACE</div>
             <div className="mock-nav">
@@ -549,13 +549,13 @@ export const screens: Screen[] = [
             <span className="mock-dot yellow"></span>{" "}
             <span className="mock-dot green"></span>
           </div>
-          Tax Assistant · Documents
+          Taxy · Documents
         </div>
         <div className="mock-body">
           <aside className="mock-sidebar">
             <div className="mock-brand">
               <div className="mock-brand-icon">T</div>
-              Tax Assistant
+              Taxy
             </div>
             <div className="mock-label">WORKSPACE</div>
             <div className="mock-nav">
@@ -717,13 +717,13 @@ export const screens: Screen[] = [
             <span className="mock-dot yellow"></span>{" "}
             <span className="mock-dot green"></span>
           </div>
-          Tax Assistant · Document Review
+          Taxy · Document Review
         </div>
         <div className="mock-body">
           <aside className="mock-sidebar">
             <div className="mock-brand">
               <div className="mock-brand-icon">T</div>
-              Tax Assistant
+              Taxy
             </div>
             <div className="mock-label">WORKSPACE</div>
             <div className="mock-nav">
@@ -954,13 +954,13 @@ export const screens: Screen[] = [
             <span className="mock-dot yellow"></span>{" "}
             <span className="mock-dot green"></span>
           </div>
-          Tax Assistant · Financial Records
+          Taxy · Financial Records
         </div>
         <div className="mock-body">
           <aside className="mock-sidebar">
             <div className="mock-brand">
               <div className="mock-brand-icon">T</div>
-              Tax Assistant
+              Taxy
             </div>
             <div className="mock-label">WORKSPACE</div>
             <div className="mock-nav">
@@ -1165,13 +1165,13 @@ export const screens: Screen[] = [
             <span className="mock-dot yellow"></span>{" "}
             <span className="mock-dot green"></span>
           </div>
-          Tax Assistant · Tax Guidance
+          Taxy · Tax Guidance
         </div>
         <div className="mock-body">
           <aside className="mock-sidebar">
             <div className="mock-brand">
               <div className="mock-brand-icon">T</div>
-              Tax Assistant
+              Taxy
             </div>
             <div className="mock-label">WORKSPACE</div>
             <div className="mock-nav">
@@ -1209,7 +1209,7 @@ export const screens: Screen[] = [
             <div className="mock-page-top">
               <div>
                 <div className="mock-breadcrumb">WORKSPACE / TAX GUIDANCE</div>
-                <h2 className="mock-title">Ask your Tax Assistant</h2>
+                <h2 className="mock-title">Ask Taxy</h2>
                 <p className="mock-subtitle">
                   Understand your obligations and organise your financial
                   records.
@@ -1224,7 +1224,7 @@ export const screens: Screen[] = [
                 >
                   <div className="mock-brand-icon">✧</div>
                   <div>
-                    <h4>Tax Assistant</h4>
+                    <h4>Taxy</h4>
                     <p style={{ margin: "2px 0 0" }}>Guidance workspace</p>
                   </div>
                 </div>
@@ -1357,13 +1357,13 @@ export const screens: Screen[] = [
             <span className="mock-dot yellow"></span>{" "}
             <span className="mock-dot green"></span>
           </div>
-          Tax Assistant · Tax Estimate
+          Taxy · Tax Estimate
         </div>
         <div className="mock-body">
           <aside className="mock-sidebar">
             <div className="mock-brand">
               <div className="mock-brand-icon">T</div>
-              Tax Assistant
+              Taxy
             </div>
             <div className="mock-label">WORKSPACE</div>
             <div className="mock-nav">
@@ -1535,13 +1535,13 @@ export const screens: Screen[] = [
             <span className="mock-dot yellow"></span>{" "}
             <span className="mock-dot green"></span>
           </div>
-          Tax Assistant · Reports
+          Taxy · Reports
         </div>
         <div className="mock-body">
           <aside className="mock-sidebar">
             <div className="mock-brand">
               <div className="mock-brand-icon">T</div>
-              Tax Assistant
+              Taxy
             </div>
             <div className="mock-label">WORKSPACE</div>
             <div className="mock-nav">
@@ -1716,13 +1716,13 @@ export const screens: Screen[] = [
             <span className="mock-dot yellow"></span>{" "}
             <span className="mock-dot green"></span>
           </div>
-          Tax Assistant · History
+          Taxy · History
         </div>
         <div className="mock-body">
           <aside className="mock-sidebar">
             <div className="mock-brand">
               <div className="mock-brand-icon">T</div>
-              Tax Assistant
+              Taxy
             </div>
             <div className="mock-label">WORKSPACE</div>
             <div className="mock-nav">

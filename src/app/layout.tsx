@@ -13,7 +13,7 @@ const inter = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Tax Assistant | Your tax preparation workspace",
+  title: "Taxy | Your tax preparation workspace",
   description:
     "Bring your freelance records together, check what was extracted, and prepare an organised, traceable tax report for Y/A 2025/26.",
 };

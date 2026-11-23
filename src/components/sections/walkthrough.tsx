@@ -138,7 +138,7 @@ export function Walkthrough() {
         title="Explore the application."
       >
         From your first sign-in to your final preparation report, step through
-        the ten main screens of Tax Assistant.
+        the ten main screens of Taxy.
       </SectionHeading>
 
       <div

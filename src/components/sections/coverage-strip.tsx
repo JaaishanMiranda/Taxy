@@ -4,7 +4,7 @@ import { coverage } from "@/content/site";
 export function CoverageStrip() {
   return (
     <section
-      aria-label="What Tax Assistant covers"
+      aria-label="What Taxy covers"
       className="border-b border-line bg-white py-6"
     >
       <div className="relative mx-auto max-w-[1240px]">
