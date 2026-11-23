@@ -2,13 +2,11 @@ import { SectionHeading } from "@/components/sections/section-heading";
 import { team } from "@/content/site";
 
 const initials = (name: string) =>
-  name.startsWith("[")
-    ? "?"
-    : name
-        .split(" ")
-        .map((p) => p[0])
-        .slice(0, 2)
-        .join("");
+  name
+    .split(" ")
+    .map((p) => p[0])
+    .slice(0, 2)
+    .join("");
 
 export function Team() {
   return (
@@ -28,10 +26,10 @@ export function Team() {
           University of Westminster.
         </SectionHeading>
 
-        <ul className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
-          {team.map((m, i) => (
+        <ul className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+          {team.map((m) => (
             <li
-              key={i}
+              key={m.name}
               className="flex flex-col items-center rounded-2xl border border-line bg-white p-5 text-center"
             >
               <span
